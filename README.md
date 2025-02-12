@@ -1,2 +1,3 @@
-# ec2-to-s3-connect
+# Attach s3 bucket to an EC2 instance
+
  
