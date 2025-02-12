@@ -12,4 +12,18 @@ This project will give an EC2 instance access to a specific S3 bucket. It will a
 
 ## Architectural Diagram
 ![Architectural Diagram](https://i.postimg.cc/Bvqq4Kv5/ec2-s3-drawio.png)
+
+## Technologies
+* Cloud Provider - AWS
+* Infrastructure as Code tool - Terraform
+* Core Services - IAM, S3, EC2
+
+## Setup Instructions
+### Clone the Repository
+```Bash
+https://github.com/Lakunzo/terraform-ec2-to-s3-connect.git
+```
+### Run Terraform Commands
+1. Initialize Terraform backend
+
  
