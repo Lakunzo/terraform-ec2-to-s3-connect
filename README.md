@@ -25,5 +25,23 @@ https://github.com/Lakunzo/terraform-ec2-to-s3-connect.git
 ```
 ### Run Terraform Commands
 1. Initialize Terraform backend
-
+```Bash
+terraform init
+```
+2. Validate the Terraform configuration
+```Bash
+terraform validate
+```
+3. Run the Terraform plan to view the resources that will be created
+```Bash
+terraform plan
+```
+4. Run Terraform apply to create the needed resources and type 'yes' to proceed
+```Bash
+terraform apply
+```
+5. Destroy all resources to clean up. Note:- Remove all objects in S3 bucket before applying this command, if not, you will get an error in the terminal. Other resources will be deleted except for the S3
+```Bash
+terraform destroy
+```
  
