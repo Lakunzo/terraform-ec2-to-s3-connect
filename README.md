@@ -11,5 +11,5 @@ This project will give an EC2 instance access to a specific S3 bucket. It will a
 * Allows EC2 instance access only to the S3 bucket
 
 ## Architectural Diagram
-
+![Architectural Diagram](https://i.postimg.cc/Bvqq4Kv5/ec2-s3-drawio.png)
  
